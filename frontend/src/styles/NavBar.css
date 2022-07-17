@@ -1,0 +1,55 @@
+.my-nav-container {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    background-color: #282c34;
+    align-items: center;
+}
+
+.my-nav-brand {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1;
+}
+
+.my-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    flex: 2;
+    
+}
+
+.my-nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.brand-text {
+    font-weight: 800;
+}
+.brand-text:hover {
+    color: #7b8a34;
+}
+
+.my-nav-item {
+    padding: 4px;
+    margin:4px;
+    color: white;
+}
+.my-nav-item:hover {
+    color: #7b8a34
+}
+.my-nav-item:active {
+    background-color: #7b8a34;
+    border-radius: 5px;
+}
+
+.right-item {
+    margin-right: 10px;
+}
+

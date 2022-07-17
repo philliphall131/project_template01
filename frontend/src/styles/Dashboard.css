@@ -1,0 +1,64 @@
+.dash-body {
+    background-color: #8A9A3C;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.dash-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dash-title {
+    text-align: center;
+    margin: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.dash-button {
+    margin: 5px;
+    align-items: center;
+    appearance: none;
+    background-color: #595959;
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(69, 68, 71, 0.4) 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    width: 200px !important;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+  }
+  
+  .dash-button:hover {
+    box-shadow: rgba(41, 41, 41, 0.747) 0 4px 8px, rgba(60, 60, 60, 0.675) 0 7px 13px -3px, #818633 1px 1px 0;
+    transform: translateY(-2px);
+  }
+  
+  .dash-button:active {
+    box-shadow: #818633 0 3px 7px inset;
+    transform: translateY(2px);
+  }

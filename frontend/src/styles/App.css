@@ -1,0 +1,77 @@
+.standard-body {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.standard-body {
+  background-color: #8A9A3C;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.loading-body {
+  background-color: #8A9A3C;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.landing-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.landing-button {
+  margin: 5px;
+  align-items: center;
+  appearance: none;
+  background-color: #595959;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(69, 68, 71, 0.4) 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  height: 48px;
+  width: 200px !important;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.landing-button:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #818633 1px 1px 0;
+  transform: translateY(-2px);
+}
+
+.landing-button:active {
+  box-shadow: #818633 0 3px 7px inset;
+  transform: translateY(2px);
+}
